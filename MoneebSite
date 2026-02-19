@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONEEB GLOBAL</title>
+    <style>
+        :root { --gold: #D4AF37; --navy: #001329; }
+        body { background: var(--navy); color: white; font-family: sans-serif; direction: rtl; margin: 0; padding-bottom: 30px; }
+        header { text-align: center; padding: 25px; border-bottom: 3px solid var(--gold); }
+        .card { border: 1px solid var(--gold); border-radius: 12px; margin: 15px; padding: 15px; background: #002244; box-shadow: 0 4px 10px rgba(0,0,0,0.3); }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+        .btn { display: block; background: var(--gold); color: var(--navy); text-align: center; padding: 12px; border-radius: 8px; font-weight: bold; text-decoration: none; margin-top: 10px; border: none; width: 100%; cursor: pointer; }
+        input, select, textarea { width: 100%; padding: 10px; margin: 8px 0; border-radius: 6px; border: 1px solid var(--gold); background: #001329; color: white; box-sizing: border-box; }
+        img, video { width: 100%; height: 110px; object-fit: cover; border-radius: 8px; border: 1px solid var(--gold); }
+        summary { color: var(--gold); font-weight: bold; cursor: pointer; text-align: center; list-style: none; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1 style="color:var(--gold); margin:0;">MONEEB GLOBAL</h1>
+    <p style="font-size: 14px; opacity: 0.8;">التجارة العالمية • العقارات • حلول Pi</p>
+</header>
+
+<div class="card">
+    <h3 style="color:var(--gold);">🏡 معرض العقارات والخدمات</h3>
+    <div class="grid">
+        <img src="https://via.placeholder.com/300x200?text=Property+Image" alt="Real Estate">
+        <video controls>
+            <source src="your-video-link.mp4" type="video/mp4">
+        </video>
+    </div>
+    <a href="https://wa.me/249XXXXXXXXX" class="btn">💬 استفسر عبر واتساب</a>
+</div>
+
+<div class="card">
+    <h3 style="color:var(--gold);">📝 انضم كشريك (تاجر / صاحب عقار)</h3>
+    <form>
+        <input type="text" placeholder="الاسم الكامل أو اسم الشركة" required>
+        <select>
+            <option value="real-estate">تسويق عقاري</option>
+            <option value="trade">تجارة عامة</option>
+            <option value="services">خدمات مهنية</option>
+        </select>
+        <textarea rows="3" placeholder="تفاصيل العرض..."></textarea>
+        <button type="button" class="btn">إرسال البيانات</button>
+    </form>
+</div>
+
+<div class="card" style="font-size: 12px; opacity: 0.9; line-height: 1.6;">
+  <details>
+    <summary>⚖️ الشروط والأحكام | Terms & Conditions</summary>
+    <div style="margin-top: 10px; border-top: 1px solid #444; padding-top: 10px;">
+      <p><strong>العربية:</strong> إن استخدامك لمنصة MONEEB GLOBAL يعني موافقتك على شروط الوساطة التجارية. المنصة توفر الربط التقني ولا تتحمل مسؤولية جودة السلع.</p>
+      <hr style="border: 0.5px solid #333;">
+      <p><strong>English:</strong> By using MONEEB GLOBAL, you agree that we are a service provider. We are not responsible for third-party listings.</p>
+    </div>
+  </details>
+</div>
+
+<footer style="text-align: center; color: var(--gold); padding: 20px; font-size: 11px;">
+  &copy; 2026 MONEEB GLOBAL | Powered by Pi Network Ecosystem
+</footer>
+
+</body>
+</html>
